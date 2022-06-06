@@ -4,8 +4,12 @@ In this module we helped Steve create a VBA script that would run his parents' S
 ## Deliverable 1: Refactoring VBA code
 We downloaded the Challenge Starter Code and ran the initial macro ran 2017 and 2018 stock with the following timer message box.
 
-1. 2017 Stocks Image 
-2. 
+1. 2017 Stock Image 
+![This is an image]Original Code_Data table _2017.PNG
+
+3. 2018 Stock Image
+![This is an image]Original Code_Data table _2018.PNG
+
 
 # Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
