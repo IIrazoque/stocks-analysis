@@ -15,9 +15,10 @@ Our task was to "refactor" the code, which is to clean up and restructure the co
 Create a ticker index as string and set it equal to zero. This allows us to name the array with the number of elements it contained (always considering starting with the number zero). 
 
 We created arrays for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices and stating their counter data types.
-![This is an image]()
+![This is an image](https://github.com/IIrazoque/stocks-analysis/blob/f520f978ae2808c98aa29d02f6e15bbd3d7a40f5/codepart1.PNG)
 
-![This is an image]()
+
+![This is an image](https://github.com/IIrazoque/stocks-analysis/blob/f520f978ae2808c98aa29d02f6e15bbd3d7a40f5/codepart2.PNG)
 
 ## Deliverable 2: Results
 The purpose of the refactoring someone else's project is to ensure the sequence makes sense, the selections such as calling out variables arrays and/or loops, and lastly if the iteration of the loop/code is taking place to the end goal. We also want to leave useful comments in case someone in the future needs to brush up the code. 
