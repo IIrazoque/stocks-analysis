@@ -1,6 +1,6 @@
 # stocks-analysis
 ### Overview of Project: 
-In this module we helped Steve create a VBA script that would run his parents' Stock within seconds when analyzing yearly retunns on a yearly basis. 
+In this module we helped Steve create a VBA script that would run his parents' Stock within seconds when analyzing yearly returns on a yearly basis. 
 ## Deliverable 1: Refactoring VBA code
 We downloaded the Challenge Starter Code and ran the initial macro ran 2017 and 2018 stock with the following timer message box.
 
@@ -10,18 +10,23 @@ We downloaded the Challenge Starter Code and ran the initial macro ran 2017 and 
 3. 2018 Stock Image
 ![This is an image](https://github.com/IIrazoque/stocks-analysis/blob/b4dd0f0eda123c85e30985efc60e5dd9c44ae567/Original%20Code_Data%20table%20_2018.PNG)
 
+Our task was to "refactor" the code, which is to clean up and restructure the code without change the outcome. The following was added to the code;
 
-# Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+Create a ticker index as string and set it equal to zero. This allows us to name the array with the number of elements it contained (always considering starting with the number zero). 
 
-### The tickerIndex is set equal to zero before looping over the rows. (5 pt).
-### Arrays are created for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices (15 pt).
-### The tickerIndex is used to access the stock ticker index for the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays (15 pt).
-### The script loops through stock data, reading and storing all of the following values from each row: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices (25 pt).
-### Code for formatting the cells in the spreadsheet is working (5 pt).
-### There are comments to explain the purpose of the code (5 pt).
-### The outputs for the 2017 and 2018 stock analyses in the VBA_Challenge.xlsm workbook match the outputs from the AllStockAnalysis in the module (5 pt).
-### The pop-up messages showing the elapsed run time for the script are saved as VBA_Challenge_2017.png and VBA_Challenge_2018.png (5 pt).
-## Deliverable 2: A written analysis of your results
-## Summary: In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
+We created arrays for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices and stating their counter data types.
+![This is an image]()
+
+![This is an image]()
+
+## Deliverable 2: Results
+The purpose of the refactoring someone else's project is to ensure the sequence makes sense, the selections such as calling out variables arrays and/or loops, and lastly if the iteration of the loop/code is taking place to the end goal. We also want to leave useful comments in case someone in the future needs to brush up the code. 
+
+Images after the code is refactored 
+
+Refactored 2017 Stock Image with timer box
+![This is an image](https://github.com/IIrazoque/stocks-analysis/blob/7d3822d591b2c901ea1d5160f76840ed6d6651cb/Refactor%20code%202017.PNG)
+
+Refactored 2018 Stock Image with timer box
+![This is an image](https://github.com/IIrazoque/stocks-analysis/blob/7d3822d591b2c901ea1d5160f76840ed6d6651cb/Refactor%20code%202018.PNG)
+
